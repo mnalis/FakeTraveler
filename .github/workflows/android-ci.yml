@@ -16,4 +16,4 @@ jobs:
           java-version: 11
           distribution: 'adopt'
       - name: Build with Gradle
-        run: ./gradlew build -x lint -x test -x check -x :app:lintVitalAnalyzeRelease -x :app:lintVitalReportRelease -x lintVitalReportRelease -x lintVitalAnalyzeRelease
+        run: ./gradlew build -x lintVitalRelease
