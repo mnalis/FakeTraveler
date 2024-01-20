@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "cl.coders.faketraveler"
         minSdkVersion 16
-        targetSdkVersion 31
+        targetSdkVersion 30
         versionCode 10
         versionName "1.9.2-beta"
     }
